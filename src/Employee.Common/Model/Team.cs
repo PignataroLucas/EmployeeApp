@@ -2,7 +2,7 @@ using System.Linq.Expressions;
 
 namespace Employee.Common.Model;
 
-public class Team: BaseEntity
+public class Team : BaseEntity
 {
     public string Name { get; set; } = default!;
     public List<Employee> Employees { get; set; } = default!;
